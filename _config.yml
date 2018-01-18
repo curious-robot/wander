@@ -5,14 +5,8 @@ google_analytics:
 theme: jekyll-theme-minimal
 baseurl: "/wander" # the subpath of your site, e.g. /blog
 url: "https://curious-robot.github.io" # the base hostname & protocol for your site
+collections_dir: collections
 collections:
   pathways:
     output: true
     permalink: /:collection/:name/
-  concepts:
-    output: true
-  timelines:
-    output: true
-  goi:
-    output: true
-collections_dir: collections
