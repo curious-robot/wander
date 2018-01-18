@@ -3,8 +3,8 @@ description: A worldbuilding project involving getting lost and finding treasure
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "wander" # the subpath of your site, e.g. /blog
+url: "https://curious-robot.github.io/" # the base hostname & protocol for your site
 collections:
 - pathways
 - concepts
