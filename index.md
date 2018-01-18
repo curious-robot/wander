@@ -2,4 +2,8 @@
 layout: default
 ---
 
-- About Wander
+# About Wander
+# Pathways
+{% for item in collections.pathways %}
+### item.title
+{% endfor %}
