@@ -6,8 +6,12 @@ theme: jekyll-theme-minimal
 baseurl: "wander" # the subpath of your site, e.g. /blog
 url: "https://curious-robot.github.io/" # the base hostname & protocol for your site
 collections:
-- pathways
-- concepts
-- timelines
-- goi
+  pathways:
+    output: true
+  concepts:
+    output: true
+  timelines:
+    output: true
+  goi:
+    output: true
 collections_dir: collections
