@@ -8,6 +8,7 @@ url: "https://curious-robot.github.io/" # the base hostname & protocol for your 
 collections:
   pathways:
     output: true
+    permalink: /:collection/:id/
   concepts:
     output: true
   timelines:
