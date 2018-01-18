@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+<div class="info-wrapper">
+	<h3 class="info"><span class="bold">Type: </span><span>{{ page.type }}</span></h3>
+	<h3 class="info"><span class="bold">Time: </span><span>{{ page.time }}</span></h3>
+	<h3 class="info"><span class="bold">Location: </span><span>{{ page.location }}</span></h3>
+	<h3 class="info"><span class="bold">Offers Access To: </span><span>
+		{% for item in page.accessto %}
+			<span>{{ page.accessto }}<span>
+		{% endfor %}
+	</span></h3>
+	<h3 class="info"><span class="bold">Accessed From: </span><span>{{ page.location }}</span></h3>
+</div>
+
+<div class="body-wrapper">
+	<div class="description">
+		<h2>Description</h2>
+		<p>{{ page.aesthetic }}</p>
+	</div>
+	<div class="specialty">
+		<h2>Specialty</h2>
+		<p>{{ page.specialty }}</p>
+	</div>
+	<div class="story">
+		<h2>Anecdote</h2>
+		<p>{{ page.story }}</p>
+	</div>
+</div>
+
+<div class="page-content">
+
+	{{ content }}
+
+</div>
